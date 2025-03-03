@@ -1,0 +1,7 @@
+pip install langchain langgraph fastapi uvicorn langchain-mcp-adapters
+
+python mcp_server.py
+
+http://localhost:8000/mcp
+
+python mcp_client.py
